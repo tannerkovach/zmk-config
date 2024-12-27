@@ -22,15 +22,28 @@
         };
     };
 
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <2>;
+            tapping-term-ms = <180>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <120>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B             &kp J  &kp L        &kp U      &kp Y    &lt 4 SEMICOLON
-&kp A  &kp R  &kp S  &kp T  &kp G             &kp M  &kp N        &kp E      &kp I    &kp O
-&kp Z  &kp X  &kp C  &kp D  &kp V             &kp K  &kp H        &kp COMMA  &kp DOT  &kp FSLH
-                     &mo 1  &kp LEFT_SHIFT    &mo 2  &lt 3 SPACE
+&kp Q                                   &kp W                     &kp F                  &kp P                     &kp B             &kp J  &kp L                     &kp U                  &kp Y                     &lt 4 SEMICOLON
+&new_behavior LA(LC(LG(LEFT_SHIFT))) A  &new_behavior LEFT_ALT R  &new_behavior LCTRL S  &new_behavior LEFT_GUI T  &kp G             &kp M  &new_behavior LEFT_GUI N  &new_behavior LCTRL E  &new_behavior LEFT_ALT I  &new_behavior LC(LA(LG(LEFT_SHIFT))) O
+&kp Z                                   &kp X                     &kp C                  &kp D                     &kp V             &kp K  &kp H                     &kp COMMA              &kp DOT                   &kp FSLH
+                                                                                         &mo 1                     &kp LEFT_SHIFT    &mo 2  &lt 3 SPACE
             >;
         };
 
