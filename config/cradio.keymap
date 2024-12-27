@@ -58,18 +58,18 @@
 
         sym {
             bindings = <
-&kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp LCTRL      &kp UNDERSCORE    &kp AMPERSAND      &kp SEMICOLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH
-&kp EXCL   &kp MINUS      &kp PLUS          &kp EQUAL      &kp HASH          &kp AT_SIGN        &kp COLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
-&kp TILDE  &kp DOLLAR     &kp ASTERISK      &kp BACKSLASH  &kp PIPE          &kp DOUBLE_QUOTES  &kp PERCENT    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SQT
-                                            &trans         &trans            &trans             &trans
+&kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(NUMBER_6)  &kp UNDERSCORE    &kp AMPERSAND      &kp SEMICOLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH
+&kp EXCL   &kp MINUS      &kp PLUS          &kp EQUAL         &kp HASH          &kp AT_SIGN        &kp COLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
+&kp TILDE  &kp DOLLAR     &kp ASTERISK      &kp BACKSLASH     &kp PIPE          &kp DOUBLE_QUOTES  &kp PERCENT    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SQT
+                                            &trans            &trans            &trans             &trans
             >;
         };
 
         nav {
             bindings = <
 &mp                       &dp               &trans         &trans            &trans    &trans     &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans
-&sk LC(LA(LS(LEFT_GUI)))  &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &kp LCTRL  &kp LEFT         &kp DOWN      &kp RIGHT    &kp DOLLAR
-&sk LA(LC(LEFT_SHIFT))    &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &trans     &kp HOME         &trans        &kp END      &trans
+&sk LC(LA(LS(LEFT_GUI)))  &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &kp CARET  &kp LEFT         &kp DOWN      &kp RIGHT    &kp DOLLAR
+&sk LA(LC(LEFT_SHIFT))    &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &trans     &kp HOME         &kp LS(N5)    &kp END      &trans
                                                            &trans            &trans    &trans     &trans
             >;
         };
