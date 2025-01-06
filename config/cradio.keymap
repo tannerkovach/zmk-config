@@ -27,14 +27,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "SPACE_TEST";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <125>;
+            tapping-term-ms = <150>;
             flavor = "balanced";
             bindings = <&lt>, <&kp>;
-
-            hold-trigger-on-release;
-            hold-trigger-key-positions = <7 16 17 18>;
         };
 
         hml: hml {
