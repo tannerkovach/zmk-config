@@ -95,10 +95,10 @@
 
         nav {
             bindings = <
-&mp                       &dp               &trans         &trans            &trans    &trans     &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans
-&sk LC(LA(LS(LEFT_GUI)))  &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &kp CARET  &kp LEFT         &kp DOWN      &kp RIGHT    &kp DOLLAR
-&sk LA(LC(LEFT_SHIFT))    &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &trans     &kp HOME         &kp LS(N5)    &kp END      &trans
-                                                           &trans            &trans    &trans     &trans
+&mp                       &dp               &trans         &trans            &trans    &trans           &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans
+&sk LC(LA(LS(LEFT_GUI)))  &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &kp LG(TAB)      &kp LEFT         &kp DOWN      &kp RIGHT    &trans
+&sk LA(LC(LEFT_SHIFT))    &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &kp LG(LS(TAB))  &kp HOME         &kp LS(N5)    &kp END      &trans
+                                                           &trans            &trans    &kp CARET        &kp DOLLAR
             >;
         };
 
