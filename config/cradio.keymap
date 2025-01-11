@@ -68,28 +68,10 @@
 
         default_layer {
             bindings = <
-&kp Q                          &kp W            &kp F         &kp P            &kp B             &kp J  &kp L            &kp U         &kp Y            &lt 5 SEMICOLON
-&hml LA(LC(LG(LEFT_SHIFT))) A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_GUI T  &kp G             &kp M  &hmr LEFT_GUI N  &hmr LCTRL E  &hmr LEFT_ALT I  &lt 4 O
+&kp Q                          &kp W            &kp F         &kp P            &kp B             &kp J  &kp L            &kp U         &kp Y            &lt 0 SEMICOLON
+&hml LA(LC(LG(LEFT_SHIFT))) A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_GUI T  &kp G             &kp M  &hmr LEFT_GUI N  &hmr LCTRL E  &hmr LEFT_ALT I  &lt 2 O
 &kp Z                          &kp X            &kp C         &kp D            &kp V             &kp K  &kp H            &kp COMMA     &kp DOT          &kp SLASH
-                                                              &mo 2            &kp LEFT_SHIFT    &mo 3  &kp SPACE
-            >;
-        };
-
-        core2 {
-            bindings = <
-&kp Q    &kp W    &kp F          &kp P      &kp B            &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp TAB  &kp BACKSPACE  &kp ENTER  &kp LS(ENTER)    &trans  &trans  &trans  &trans  &trans
-&kp Z    &kp X    &kp C          &kp D      &kp V            &trans  &trans  &trans  &trans  &trans
-                                 &trans     &trans           &trans  &trans
-            >;
-        };
-
-        core {
-            bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8   &kp NUMBER_9      &kp NUMBER_0
-&kp ESCAPE    &kp TAB       &kp BACKSPACE  &kp ENTER          &kp LS(ENTER)    &trans        &sk LEFT_GUI        &sk LCTRL      &sk LEFT_ALT      &sk LEFT_SHIFT
-&kp LG(Z)     &kp LG(X)     &kp LG(C)      &kp LA(BACKSPACE)  &kp LG(V)        &trans        &sk LG(LEFT_SHIFT)  &sk LG(LCTRL)  &sk LG(LEFT_ALT)  &sk LG(LEFT_SHIFT)
-                                           &trans             &trans           &trans        &trans
+                                                              &mo 6            &kp LEFT_SHIFT    &mo 1  &kp SPACE
             >;
         };
 
@@ -107,7 +89,25 @@
 &mp                 &dp               &trans         &trans            &trans    &trans     &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans
 &sk LEFT_SHIFT      &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &trans     &kp LEFT         &kp DOWN      &kp RIGHT    &trans
 &sk LG(LEFT_SHIFT)  &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &trans     &kp HOME         &kp LS(N5)    &kp END      &trans
-                                                     &mo 1             &trans    &kp CARET  &kp DOLLAR
+                                                     &mo 5             &trans    &kp CARET  &kp DOLLAR
+            >;
+        };
+
+        core {
+            bindings = <
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8   &kp NUMBER_9      &kp NUMBER_0
+&kp ESCAPE    &kp TAB       &kp BACKSPACE  &kp ENTER          &kp LS(ENTER)    &trans        &sk LEFT_GUI        &sk LCTRL      &sk LEFT_ALT      &sk LEFT_SHIFT
+&kp LG(Z)     &kp LG(X)     &kp LG(C)      &kp LA(BACKSPACE)  &kp LG(V)        &trans        &sk LG(LEFT_SHIFT)  &sk LG(LCTRL)  &sk LG(LEFT_ALT)  &sk LG(LEFT_SHIFT)
+                                           &trans             &trans           &trans        &trans
+            >;
+        };
+
+        core2 {
+            bindings = <
+&trans   &trans   &trans         &trans     &trans           &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp TAB  &kp BACKSPACE  &kp ENTER  &kp LS(ENTER)    &trans  &trans  &trans  &trans  &trans
+&trans   &trans   &kp C          &kp D      &kp V            &trans  &trans  &trans  &trans  &trans
+                                 &trans     &trans           &trans  &trans
             >;
         };
 
