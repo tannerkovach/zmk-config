@@ -68,7 +68,7 @@
 
         default_layer {
             bindings = <
-&kp Q                          &kp W            &kp F         &kp P            &kp B             &kp J  &kp L            &kp U         &kp Y            &lt 0 SEMICOLON
+&kp Q                          &kp W            &kp F         &kp P            &kp B             &kp J  &kp L            &kp U         &kp Y            &lt 5 SEMICOLON
 &hml LA(LC(LG(LEFT_SHIFT))) A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_GUI T  &kp G             &kp M  &hmr LEFT_GUI N  &hmr LCTRL E  &hmr LEFT_ALT I  &lt 2 O
 &kp Z                          &kp X            &kp C         &kp D            &kp V             &kp K  &kp H            &kp COMMA     &kp DOT          &kp SLASH
                                                               &mo 3            &kp LEFT_SHIFT    &mo 1  &kp SPACE
