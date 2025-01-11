@@ -68,10 +68,10 @@
 
         default_layer {
             bindings = <
-&kp Q                          &kp W            &kp F         &kp P            &kp B             &kp J      &kp L            &kp U         &kp Y            &lt 4 SEMICOLON
-&hml LA(LC(LG(LEFT_SHIFT))) A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_GUI T  &kp G             &kp M      &hmr LEFT_GUI N  &hmr LCTRL E  &hmr LEFT_ALT I  &hmr LC(LA(LG(LEFT_SHIFT))) O
-&kp Z                          &kp X            &kp C         &kp D            &kp V             &kp K      &kp H            &kp COMMA     &kp DOT          &lt 3 SLASH
-                                                              &mo 1            &kp LEFT_SHIFT    &lt 2 DEL  &kp SPACE
+&kp Q                          &kp W            &kp F         &kp P            &kp B             &kp J  &kp L            &kp U         &kp Y            &lt 4 SEMICOLON
+&hml LA(LC(LG(LEFT_SHIFT))) A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_GUI T  &kp G             &kp M  &hmr LEFT_GUI N  &hmr LCTRL E  &hmr LEFT_ALT I  &hmr LC(LA(LG(LEFT_SHIFT))) O
+&kp Z                          &kp X            &kp C         &kp D            &kp V             &kp K  &kp H            &kp COMMA     &kp DOT          &lt 3 SLASH
+                                                              &mo 1            &kp LEFT_SHIFT    &mo 2  &kp SPACE
             >;
         };
 
