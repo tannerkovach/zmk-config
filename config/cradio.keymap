@@ -104,10 +104,10 @@
 
         core2 {
             bindings = <
-&trans   &trans   &trans         &trans     &trans    &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp TAB  &kp BACKSPACE  &kp ENTER  &trans    &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans         &trans     &trans    &trans  &trans  &trans  &trans  &trans
-                                 &trans     &trans    &trans  &trans
+&trans   &trans   &trans         &trans     &trans           &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp TAB  &kp BACKSPACE  &kp ENTER  &kp LS(ENTER)    &trans  &trans  &trans  &trans  &trans
+&trans   &trans   &trans         &trans     &trans           &trans  &trans  &trans  &trans  &trans
+                                 &trans     &trans           &trans  &trans
             >;
         };
 
