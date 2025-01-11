@@ -71,7 +71,7 @@
 &kp Q                          &kp W            &kp F         &kp P            &kp B             &kp J  &kp L            &kp U         &kp Y            &lt 0 SEMICOLON
 &hml LA(LC(LG(LEFT_SHIFT))) A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_GUI T  &kp G             &kp M  &hmr LEFT_GUI N  &hmr LCTRL E  &hmr LEFT_ALT I  &lt 2 O
 &kp Z                          &kp X            &kp C         &kp D            &kp V             &kp K  &kp H            &kp COMMA     &kp DOT          &kp SLASH
-                                                              &mo 6            &kp LEFT_SHIFT    &mo 1  &kp SPACE
+                                                              &mo 3            &kp LEFT_SHIFT    &mo 1  &kp SPACE
             >;
         };
 
@@ -89,7 +89,7 @@
 &mp                 &dp               &trans         &trans            &trans    &trans     &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans
 &sk LEFT_SHIFT      &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &trans     &kp LEFT         &kp DOWN      &kp RIGHT    &trans
 &sk LG(LEFT_SHIFT)  &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &trans     &kp HOME         &kp LS(N5)    &kp END      &trans
-                                                     &mo 5             &trans    &kp CARET  &kp DOLLAR
+                                                     &mo 4             &trans    &kp CARET  &kp DOLLAR
             >;
         };
 
