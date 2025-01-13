@@ -86,10 +86,10 @@
 
         nav {
             bindings = <
-&mp                 &dp               &trans         &trans            &trans    &trans     &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans
-&sk LEFT_SHIFT      &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &trans     &kp LEFT         &kp DOWN      &kp RIGHT    &trans
-&sk LG(LEFT_SHIFT)  &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &trans     &kp HOME         &kp LS(N5)    &kp END      &trans
-                                                     &mo 4             &trans    &kp CARET  &kp DOLLAR
+&mp                 &dp               &trans         &trans            &trans    &trans         &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans
+&sk LEFT_SHIFT      &sk LEFT_ALT      &sk LCTRL      &sk LEFT_GUI      &trans    &trans         &kp LEFT         &kp DOWN      &kp RIGHT    &trans
+&sk LG(LEFT_SHIFT)  &sk LS(LEFT_ALT)  &sk LS(LCTRL)  &sk LS(LEFT_GUI)  &trans    &trans         &kp HOME         &kp LS(N5)    &kp END      &trans
+                                                     &mo 4             &trans    &kp LC(CARET)  &mo 6
             >;
         };
 
@@ -117,6 +117,15 @@
 &bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
 &trans       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
                              &trans      &trans          &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans     &kp LC(U)  &trans      &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &kp CARET  &kp LC(D)  &kp DOLLAR  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans      &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
