@@ -8,8 +8,8 @@
 &mt { flavor = "tap-preferred"; };
 
 &lt {
-    flavor = "tap-unless-interrupted";
-    tapping-term-ms = <160>;
+    flavor = "balanced";
+    tapping-term-ms = <180>;
     require-prior-idle-ms = <125>;
 };
 
