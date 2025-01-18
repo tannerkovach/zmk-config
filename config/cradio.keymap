@@ -80,7 +80,7 @@
 
         default_layer {
             bindings = <
-&kp Q                         &kp W           &kp F        &kp P           &kp B             &kp J  &kp L           &kp U        &kp Y           &lt 5 SEMICOLON
+&kp Q                         &kp W           &kp F        &kp P           &kp B             &kp J  &kp L           &kp U        &kp Y           &lt 4 SEMICOLON
 &mt LA(LC(LG(LEFT_SHIFT))) A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_GUI T  &kp G             &kp M  &mt LEFT_GUI N  &mt LCTRL E  &mt LEFT_ALT I  &mt LS(LC(LA(LEFT_GUI))) O
 &mt LEFT_SHIFT Z              &kp X           &kp C        &kp D           &kp V             &kp K  &kp H           &kp COMMA    &kp DOT         &mt LEFT_SHIFT SLASH
                                                            &mo 3           &kp LEFT_SHIFT    &mo 1  &lt 2 SPACE
@@ -111,15 +111,6 @@
 &kp ESCAPE    &kp TAB       &kp BACKSPACE  &kp ENTER          &kp LS(ENTER)    &trans        &sk LEFT_GUI        &sk LCTRL      &sk LEFT_ALT      &sk LEFT_SHIFT
 &kp LG(Z)     &kp LG(X)     &kp LG(C)      &kp LA(BACKSPACE)  &kp LG(V)        &trans        &sk LG(LEFT_SHIFT)  &sk LG(LCTRL)  &sk LG(LEFT_ALT)  &sk LG(LEFT_SHIFT)
                                            &trans             &trans           &trans        &trans
-            >;
-        };
-
-        core2 {
-            bindings = <
-&trans   &trans   &trans         &trans     &trans           &trans  &trans     &gg          &trans      &trans
-&kp ESC  &kp TAB  &kp BACKSPACE  &kp ENTER  &kp LS(ENTER)    &trans  &kp CARET  &kp LS(G)    &kp DOLLAR  &trans
-&trans   &kp X    &kp C          &kp D      &kp V            &trans  &trans     &kp PERCENT  &trans      &trans
-                                 &trans     &trans           &trans  &trans
             >;
         };
 
